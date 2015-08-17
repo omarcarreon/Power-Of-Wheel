@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>PowerOfWheel</title>
+        <vendor>omarcarreon</vendor>
+        <homepage href=""/>
+        <description>PowerOfWheel</description>
+        <description kind="short">PowerOfWheel</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="PowerOfWheel.jar" main="true"/>
+    </resources>
+    <application-desc main-class="powerofwheel.PowerOfWheel">
+    </application-desc>
+</jnlp>
